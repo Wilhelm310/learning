@@ -1,6 +1,13 @@
-x = str(input())
-def git_hub(x):
-    return x
-y = git_hub(x)
 
-print(y)
+x = str(input("Input the key: "))
+
+def browser_open():
+    import webbrowser
+
+    webbrowser.open("https://google.com")
+
+
+
+while x == "endless":
+    browser_open()
+
